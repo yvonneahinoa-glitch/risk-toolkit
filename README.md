@@ -1,14 +1,14 @@
-# 📊 Risk Toolkit — Quantitative Finance
+# Risk Toolkit — Quantitative Finance
 
 > Boîte à outils Python pour la mesure du risque de marché, l'optimisation de portefeuille et le pricing d'options.  
-> Projet développé dans le cadre du Master Finance Banque & Risque (ESSCA) et du MSc Finance & Big Data (NEOMA).
+> Projet développé dans le cadre du Master Finance Banque & Risque (ESSCA).
 
 **Auteur :** Yvonne Nyame  
 **Stack :** Python 3.10+ · NumPy · Pandas · SciPy
 
 ---
 
-## 🗂️ Structure du projet
+## Structure du projet
 
 ```
 risk-toolkit/
@@ -25,7 +25,7 @@ risk-toolkit/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/yvonne-nyame/risk-toolkit.git
@@ -36,7 +36,7 @@ python main.py
 
 ---
 
-## 📐 Modèles implémentés
+## Modèles implémentés
 
 ### 1. Value-at-Risk (VaR) & Expected Shortfall
 
@@ -120,7 +120,7 @@ vol_impl = volatilite_implicite(prix_marche=3.20, S=50, K=52, T=0.5, r=0.03)
 
 ---
 
-## 📈 Résultats (données simulées — actifs CAC 40)
+## Résultats (données simulées — actifs CAC 40)
 
 ```
 Portefeuille Max Sharpe (5 actifs) :
@@ -135,7 +135,7 @@ VaR portefeuille (99%, 1 000 000 €) :
 
 ---
 
-## 📚 Références
+## Références
 
 - Black, F. & Scholes, M. (1973). *The Pricing of Options and Corporate Liabilities*
 - Markowitz, H. (1952). *Portfolio Selection*. Journal of Finance
@@ -144,7 +144,7 @@ VaR portefeuille (99%, 1 000 000 €) :
 
 ---
 
-## 🔭 Prochaines extensions
+## Prochaines extensions
 
 - [ ] Simulation Monte Carlo multivariée (corrélations entre actifs)
 - [ ] Modèle GARCH pour la volatilité conditionnelle
